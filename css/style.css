@@ -28,8 +28,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../image/01.png);
-
-
-
-
+    color: rgba(255, 234, 0, 0.896);
+    position: relative
 }
