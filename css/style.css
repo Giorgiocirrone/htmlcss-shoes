@@ -15,19 +15,21 @@ body {
 
 
 .container {
-
     max-width: 1200px;
     margin: 0 auto;
 
 }
 
 
-.fullpage {
+.full-page {
+    /*serve per avere un immagine a tutto campo */
 
     height: 100hv;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url(../image/01.png);
+    /*non metto la weigh perchè è un blocco */
 
 
 }
