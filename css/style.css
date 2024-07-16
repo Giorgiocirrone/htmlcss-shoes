@@ -13,21 +13,17 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+    color: yellow;
+    font-size: 2.5 rem;
 
 }
 
 
-.full-page {
-    /*serve per avere un immagine a tutto campo */
 
-    height: 100hv;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../image/01.png);
-    color: rgba(255, 234, 0, 0.896);
-    position: relative
+/*utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
