@@ -16,14 +16,14 @@ body {
 h1 {
 
     color: yellow;
-    font-size: 2.5 rem;
+    font-size: 50px;
 
 }
 
 h2 {
 
     color: green;
-    font-size: 2.5rem;
+    font-size: 50px;
 }
 
 .flex {
@@ -41,9 +41,6 @@ img {
 
 }
 
-a {
-    text-decoration: none;
-}
 
 
 
@@ -67,14 +64,59 @@ a {
     background-color: red;
 }
 
-#vans {
+#adidas {
 
     background-color: green;
 }
 
 
 
-#vans {
+#converse {
 
     background-color: yellow;
+}
+
+
+.content {
+    /*scritta sul modello di punta */
+
+    width: 50%;
+    text-align: center;
+}
+
+/*pulsantiera serve per collegare le pagine tra di loro */
+
+
+#pulsantiera {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+}
+
+ul {
+
+    display: flex;
+
+    gap: 30px;
+
+    list-style-type: none;
+
+
+}
+
+
+a {
+    text-decoration: none;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    background-color: white;
+    line-height: 50px;
+
+
+
+    text-align: center;
+
 }
